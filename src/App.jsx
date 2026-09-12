@@ -11,7 +11,7 @@ import {
 /* ============================== CONFIG ============================== */
 // This app treats the JSON below as if it were a real backend response.
 // Swap MOCK_DATA_URL for a live API endpoint and the rest of the app is unchanged.
-const MOCK_DATA_URL = "/mock-data/db.json";
+const MOCK_DATA_URL = "/community-contributions-app/mock-data/db.json";
 const CURRENT_USER_ID = "m1"; // Wanjiru Kamau — logged-in user for this prototype
 
 /* ============================== HELPERS ============================== */
