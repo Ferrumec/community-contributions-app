@@ -13,7 +13,7 @@
           "phone": "0722 456 789",
           "role": "TREASURER",
           "status": "ACTIVE",
-          "joined_at": "2025-01-10"
+          "joined_at": "2026-01-10"
         },
         {
           "id": "m8",
@@ -21,7 +21,7 @@
           "phone": "0722 456 789",
           "role": "MEMBER",
           "status": "ACTIVE",
-          "joined_at": "2025-01-10"
+          "joined_at": "2026-01-10"
         },
         {
           "id": "m2",
@@ -29,7 +29,7 @@
           "phone": "0733 112 233",
           "role": "ADMIN",
           "status": "ACTIVE",
-          "joined_at": "2025-01-10"
+          "joined_at": "2026-01-10"
         },
         {
           "id": "m3",
@@ -37,7 +37,7 @@
           "phone": "0711 998 877",
           "role": "MEMBER",
           "status": "ACTIVE",
-          "joined_at": "2025-02-14"
+          "joined_at": "2026-02-14"
         },
         {
           "id": "m4",
@@ -45,7 +45,7 @@
           "phone": "0700 556 677",
           "role": "MEMBER",
           "status": "ACTIVE",
-          "joined_at": "2025-03-01"
+          "joined_at": "2026-03-01"
         },
         {
           "id": "m5",
@@ -53,7 +53,7 @@
           "phone": "0788 334 455",
           "role": "MEMBER",
           "status": "ACTIVE",
-          "joined_at": "2025-04-22"
+          "joined_at": "2026-04-22"
         },
         {
           "id": "m6",
@@ -61,7 +61,7 @@
           "phone": "0722 456 789",
           "role": "CHAIRPERSON",
           "status": "ACTIVE",
-          "joined_at": "2025-01-10"
+          "joined_at": "2026-01-10"
         },
         {
           "id": "m7",
@@ -69,7 +69,7 @@
           "phone": "0722 456 789",
           "role": "MEMBER",
           "status": "ACTIVE",
-          "joined_at": "2025-01-10"
+          "joined_at": "2026-01-10"
         }
       ],
       "contributions": [
@@ -100,7 +100,7 @@
               "memberId": "m3",
               "amount": 200,
               "mpesa_code": "QAC1X25H",
-              "status": "PENDING",
+              "status": "VERIFIED",
               "date": "2026-09-05"
             },
             {
@@ -178,37 +178,14 @@
           ]
         }
       ],
-      "spendings": [
-        {
-          "id": "sp-1",
-          "subject": "Venue hire for AGM",
-          "category": "Events",
-          "amount": 8000,
-          "requested_by": "m2",
-          "approved_by": "m1",
-          "status": "APPROVED",
-          "date": "2026-08-20",
-          "receipt_url": "receipt-1.pdf"
-        },
-        {
-          "id": "sp-2",
-          "subject": "Tea & refreshments",
-          "category": "Welfare",
-          "amount": 2500,
-          "requested_by": "m3",
-          "approved_by": null,
-          "status": "PROPOSED",
-          "date": "2026-09-06",
-          "receipt_url": null
-        }
-      ]
+      "spendings": []
     },
     {
       "id": "c-b",
       "name": "Tech Hustlers Sacco",
       "description": "Investment sacco for young tech professionals pooling funds for joint ventures.",
       "currency": "KES",
-      "created_at": "2025-06-01",
+      "created_at": "2026-06-01",
       "members": [
         {
           "id": "m1",
@@ -216,7 +193,7 @@
           "phone": "0722 456 789",
           "role": "MEMBER",
           "status": "ACTIVE",
-          "joined_at": "2025-06-01"
+          "joined_at": "2026-06-01"
         },
         {
           "id": "m4",
@@ -224,7 +201,7 @@
           "phone": "0700 556 677",
           "role": "TREASURER",
           "status": "ACTIVE",
-          "joined_at": "2025-06-01"
+          "joined_at": "2026-06-01"
         },
         {
           "id": "m5",
@@ -232,7 +209,7 @@
           "phone": "0788 334 455",
           "role": "ADMIN",
           "status": "ACTIVE",
-          "joined_at": "2025-06-01"
+          "joined_at": "2026-06-01"
         }
       ],
       "contributions": [
