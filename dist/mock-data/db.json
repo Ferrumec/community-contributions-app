@@ -2,50 +2,204 @@
   "communities": [
     {
       "id": "c-a",
-      "name": "Kilimani Wanawake Chama",
-      "description": "Monthly savings & welfare group for Kilimani women entrepreneurs.",
+      "name": "Onagi Comrades",
+      "description": "uniting luo youths for collective self-help",
       "currency": "KES",
-      "created_at": "2025-01-10",
+      "created_at": "2026-08-10",
       "members": [
-        { "id": "m1", "name": "Wanjiru Kamau", "phone": "0722 456 789", "role": "TREASURER", "status": "ACTIVE", "joined_at": "2025-01-10" },
-        { "id": "m2", "name": "Otieno Odhiambo", "phone": "0733 112 233", "role": "ADMIN", "status": "ACTIVE", "joined_at": "2025-01-10" },
-        { "id": "m3", "name": "Achieng Auma", "phone": "0711 998 877", "role": "MEMBER", "status": "ACTIVE", "joined_at": "2025-02-14" },
-        { "id": "m4", "name": "Mutua Kilonzo", "phone": "0700 556 677", "role": "MEMBER", "status": "ACTIVE", "joined_at": "2025-03-01" },
-        { "id": "m5", "name": "Njeri Wambui", "phone": "0788 334 455", "role": "MEMBER", "status": "INACTIVE", "joined_at": "2025-04-22" }
+        {
+          "id": "m1",
+          "name": "Millicent Akoth",
+          "phone": "0722 456 789",
+          "role": "TREASURER",
+          "status": "ACTIVE",
+          "joined_at": "2025-01-10"
+        },
+        {
+          "id": "m8",
+          "name": "Millicent Atieno",
+          "phone": "0722 456 789",
+          "role": "MEMBER",
+          "status": "ACTIVE",
+          "joined_at": "2025-01-10"
+        },
+        {
+          "id": "m2",
+          "name": "Austine Odhiambo",
+          "phone": "0733 112 233",
+          "role": "ADMIN",
+          "status": "ACTIVE",
+          "joined_at": "2025-01-10"
+        },
+        {
+          "id": "m3",
+          "name": "Vivian Auma",
+          "phone": "0711 998 877",
+          "role": "MEMBER",
+          "status": "ACTIVE",
+          "joined_at": "2025-02-14"
+        },
+        {
+          "id": "m4",
+          "name": "Rose Anyango",
+          "phone": "0700 556 677",
+          "role": "MEMBER",
+          "status": "ACTIVE",
+          "joined_at": "2025-03-01"
+        },
+        {
+          "id": "m5",
+          "name": "Tony Ochieng",
+          "phone": "0788 334 455",
+          "role": "MEMBER",
+          "status": "ACTIVE",
+          "joined_at": "2025-04-22"
+        },
+        {
+          "id": "m6",
+          "name": "Godfrey Achuro",
+          "phone": "0722 456 789",
+          "role": "CHAIRPERSON",
+          "status": "ACTIVE",
+          "joined_at": "2025-01-10"
+        },
+        {
+          "id": "m7",
+          "name": "Philip Onyango",
+          "phone": "0722 456 789",
+          "role": "MEMBER",
+          "status": "ACTIVE",
+          "joined_at": "2025-01-10"
+        }
       ],
       "contributions": [
         {
           "id": "con-1",
-          "name": "September Dues",
+          "name": "Registration Fee",
           "date": "2026-09-01",
           "target_amount": 5000,
           "contributions": [
-            { "id": "mc-1", "memberId": "m1", "amount": 1000, "mpesa_code": "QAC1X23F", "status": "VERIFIED", "date": "2026-09-02" },
-            { "id": "mc-2", "memberId": "m2", "amount": 1000, "mpesa_code": "QAC1X24G", "status": "VERIFIED", "date": "2026-09-03" },
-            { "id": "mc-3", "memberId": "m3", "amount": 1000, "mpesa_code": "QAC1X25H", "status": "PENDING", "date": "2026-09-05" },
-            { "id": "mc-4", "memberId": "m4", "amount": 500, "mpesa_code": "QAC1X26J", "status": "REJECTED", "date": "2026-09-04" }
+            {
+              "id": "mc-1",
+              "memberId": "m1",
+              "amount": 200,
+              "mpesa_code": "QAC1X23F",
+              "status": "VERIFIED",
+              "date": "2026-09-02"
+            },
+            {
+              "id": "mc-2",
+              "memberId": "m2",
+              "amount": 200,
+              "mpesa_code": "QAC1X24G",
+              "status": "VERIFIED",
+              "date": "2026-09-03"
+            },
+            {
+              "id": "mc-3",
+              "memberId": "m3",
+              "amount": 200,
+              "mpesa_code": "QAC1X25H",
+              "status": "PENDING",
+              "date": "2026-09-05"
+            },
+            {
+              "id": "mc-4",
+              "memberId": "m4",
+              "amount": 200,
+              "mpesa_code": "QAC1X23I",
+              "status": "VERIFIED",
+              "date": "2026-09-02"
+            },
+            {
+              "id": "mc-5",
+              "memberId": "m5",
+              "amount": 200,
+              "mpesa_code": "QAC1X23J",
+              "status": "VERIFIED",
+              "date": "2026-09-02"
+            },
+            {
+              "id": "mc-6",
+              "memberId": "m6",
+              "amount": 200,
+              "mpesa_code": "QAC1X23K",
+              "status": "VERIFIED",
+              "date": "2026-09-02"
+            },
+            {
+              "id": "mc-7",
+              "memberId": "m7",
+              "amount": 200,
+              "mpesa_code": "QAC1X23L",
+              "status": "VERIFIED",
+              "date": "2026-09-02"
+            },
+            {
+              "id": "mc-8",
+              "memberId": "m8",
+              "amount": 200,
+              "mpesa_code": "QAC1X23M",
+              "status": "VERIFIED",
+              "date": "2026-09-02"
+            }
           ]
         },
         {
           "id": "con-2",
-          "name": "Hall Project Fund",
-          "date": "2026-08-15",
-          "target_amount": 15000,
+          "name": "6th September 2026 fines",
+          "date": "2026-09-6",
+          "target_amount": 800,
           "contributions": [
-            { "id": "mc-5", "memberId": "m1", "amount": 5000, "mpesa_code": "QAC2Y01A", "status": "VERIFIED", "date": "2026-08-16" },
-            { "id": "mc-6", "memberId": "m2", "amount": 5000, "mpesa_code": "QAC2Y02B", "status": "VERIFIED", "date": "2026-08-17" },
-            { "id": "mc-7", "memberId": "m5", "amount": 3000, "mpesa_code": "QAC2Y03C", "status": "PENDING", "date": "2026-08-20" }
+            {
+              "id": "mc-5",
+              "memberId": "m1",
+              "amount": 100,
+              "mpesa_code": "QAC2Y01A",
+              "status": "VERIFIED",
+              "date": "2026-08-16"
+            },
+            {
+              "id": "mc-6",
+              "memberId": "m3",
+              "amount": 50,
+              "mpesa_code": "QAC2Y02B",
+              "status": "VERIFIED",
+              "date": "2026-08-17"
+            },
+            {
+              "id": "mc-7",
+              "memberId": "m6",
+              "amount": 100,
+              "mpesa_code": "QAC2Y03C",
+              "status": "PENDING",
+              "date": "2026-08-20"
+            }
           ]
         }
       ],
       "spendings": [
         {
-          "id": "sp-1", "subject": "Venue hire for AGM", "category": "Events", "amount": 8000,
-          "requested_by": "m2", "approved_by": "m1", "status": "APPROVED", "date": "2026-08-20", "receipt_url": "receipt-1.pdf"
+          "id": "sp-1",
+          "subject": "Venue hire for AGM",
+          "category": "Events",
+          "amount": 8000,
+          "requested_by": "m2",
+          "approved_by": "m1",
+          "status": "APPROVED",
+          "date": "2026-08-20",
+          "receipt_url": "receipt-1.pdf"
         },
         {
-          "id": "sp-2", "subject": "Tea & refreshments", "category": "Welfare", "amount": 2500,
-          "requested_by": "m3", "approved_by": null, "status": "PROPOSED", "date": "2026-09-06", "receipt_url": null
+          "id": "sp-2",
+          "subject": "Tea & refreshments",
+          "category": "Welfare",
+          "amount": 2500,
+          "requested_by": "m3",
+          "approved_by": null,
+          "status": "PROPOSED",
+          "date": "2026-09-06",
+          "receipt_url": null
         }
       ]
     },
@@ -56,9 +210,30 @@
       "currency": "KES",
       "created_at": "2025-06-01",
       "members": [
-        { "id": "m1", "name": "Wanjiru Kamau", "phone": "0722 456 789", "role": "MEMBER", "status": "ACTIVE", "joined_at": "2025-06-01" },
-        { "id": "m4", "name": "Mutua Kilonzo", "phone": "0700 556 677", "role": "TREASURER", "status": "ACTIVE", "joined_at": "2025-06-01" },
-        { "id": "m5", "name": "Njeri Wambui", "phone": "0788 334 455", "role": "ADMIN", "status": "ACTIVE", "joined_at": "2025-06-01" }
+        {
+          "id": "m1",
+          "name": "Wanjiru Kamau",
+          "phone": "0722 456 789",
+          "role": "MEMBER",
+          "status": "ACTIVE",
+          "joined_at": "2025-06-01"
+        },
+        {
+          "id": "m4",
+          "name": "Mutua Kilonzo",
+          "phone": "0700 556 677",
+          "role": "TREASURER",
+          "status": "ACTIVE",
+          "joined_at": "2025-06-01"
+        },
+        {
+          "id": "m5",
+          "name": "Njeri Wambui",
+          "phone": "0788 334 455",
+          "role": "ADMIN",
+          "status": "ACTIVE",
+          "joined_at": "2025-06-01"
+        }
       ],
       "contributions": [
         {
@@ -67,20 +242,55 @@
           "date": "2026-10-01",
           "target_amount": 9000,
           "contributions": [
-            { "id": "mc-8", "memberId": "m1", "amount": 3000, "mpesa_code": "QBC3Z11A", "status": "VERIFIED", "date": "2026-10-02" },
-            { "id": "mc-9", "memberId": "m4", "amount": 3000, "mpesa_code": "QBC3Z12B", "status": "VERIFIED", "date": "2026-10-01" },
-            { "id": "mc-10", "memberId": "m5", "amount": 3000, "mpesa_code": "QBC3Z13C", "status": "PENDING", "date": "2026-10-03" }
+            {
+              "id": "mc-8",
+              "memberId": "m1",
+              "amount": 3000,
+              "mpesa_code": "QBC3Z11A",
+              "status": "VERIFIED",
+              "date": "2026-10-02"
+            },
+            {
+              "id": "mc-9",
+              "memberId": "m4",
+              "amount": 3000,
+              "mpesa_code": "QBC3Z12B",
+              "status": "VERIFIED",
+              "date": "2026-10-01"
+            },
+            {
+              "id": "mc-10",
+              "memberId": "m5",
+              "amount": 3000,
+              "mpesa_code": "QBC3Z13C",
+              "status": "PENDING",
+              "date": "2026-10-03"
+            }
           ]
         }
       ],
       "spendings": [
         {
-          "id": "sp-3", "subject": "Domain & hosting renewal", "category": "Operations", "amount": 4500,
-          "requested_by": "m4", "approved_by": "m5", "status": "APPROVED", "date": "2026-10-03", "receipt_url": "receipt-3.pdf"
+          "id": "sp-3",
+          "subject": "Domain & hosting renewal",
+          "category": "Operations",
+          "amount": 4500,
+          "requested_by": "m4",
+          "approved_by": "m5",
+          "status": "APPROVED",
+          "date": "2026-10-03",
+          "receipt_url": "receipt-3.pdf"
         },
         {
-          "id": "sp-4", "subject": "Legal consultation fee", "category": "Professional Services", "amount": 12000,
-          "requested_by": "m5", "approved_by": "m4", "status": "REJECTED", "date": "2026-10-05", "receipt_url": null
+          "id": "sp-4",
+          "subject": "Legal consultation fee",
+          "category": "Professional Services",
+          "amount": 12000,
+          "requested_by": "m5",
+          "approved_by": "m4",
+          "status": "REJECTED",
+          "date": "2026-10-05",
+          "receipt_url": null
         }
       ]
     }
